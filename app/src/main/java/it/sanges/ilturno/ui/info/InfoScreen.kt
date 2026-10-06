@@ -1,5 +1,8 @@
 package it.sanges.ilturno.ui.info
 
+import android.content.Intent
+import android.net.Uri
+
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -25,6 +28,9 @@ fun InfoScreen(onBack: () -> Unit) {
             Text(stringResource(R.string.app_name), style = MaterialTheme.typography.headlineMedium)
             InfoItem(stringResource(R.string.version), version)
             InfoItem(stringResource(R.string.updates), stringResource(R.string.updates_manual))
+            TextButton(onClick = {
+                context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/01DIGITALS/ilTurno/releases/latest")))
+            }) { Text(stringResource(R.string.download_updates)) }
             InfoItem(stringResource(R.string.developer), "LouisBigDev")
             Text(stringResource(R.string.special_thanks), style = MaterialTheme.typography.bodyLarge)
             Text(stringResource(R.string.personal_use), style = MaterialTheme.typography.bodyMedium)

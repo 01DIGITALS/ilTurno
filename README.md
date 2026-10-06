@@ -2,7 +2,7 @@
 
 App Android per gestire i turni di un ristorante, destinata all'uso personale. Sviluppatore: **LouisBigDev**.
 
-## Versione 1.2
+## Versione 1.2.1
 
 - Apertura sul giorno odierno, anche senza persone.
 - Nominativi in ordine alfabetico.
@@ -12,6 +12,7 @@ App Android per gestire i turni di un ristorante, destinata all'uso personale. S
 - Excel con date numeriche, stampa A4 orizzontale e adattamento a una pagina.
 - Promemoria locali da giovedì a domenica alle 12 e alle 19 finché i servizi sono coperti; controllo finale domenica alle 23 anche a settimana completa.
 - Info con versione installata e ringraziamento: **Un ringraziamento particolare a GioGio!**
+- Info → Aggiornamenti apre l'ultima release GitHub nel browser.
 
 ## Installazione e aggiornamenti
 
@@ -37,4 +38,3 @@ Aprire in Android Studio con Android SDK 37 e JDK compatibile con il wrapper Gra
 Gli script in `tool/` supportano il collaudo locale e l'ispezione indipendente degli export. Usare emulatori dedicati: i test UI cancellano i dati del dispositivo di collaudo.
 
 Gli schemi Room V1 e V2 sono in `app/schemas`. La migrazione conserva le assegnazioni precedenti in “Senza reparto”.
-

@@ -67,7 +67,8 @@
     <string name="info">Info</string>
     <string name="version">Versione</string>
     <string name="updates">Aggiornamenti</string>
-    <string name="updates_manual">Gli aggiornamenti si installano manualmente tramite un nuovo APK fornito dallo sviluppatore.</string>
+    <string name="updates_manual">Scarica il nuovo APK dalle release GitHub e installalo per aggiornare. Il repository è privato: accedi con un account autorizzato.</string>
+    <string name="download_updates">Apri aggiornamenti su GitHub</string>
     <string name="developer">Sviluppatore</string>
     <string name="personal_use">App per uso personale, non distribuita sugli store.</string>
     <string name="special_thanks">Un ringraziamento particolare a GioGio!</string>
