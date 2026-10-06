@@ -37,3 +37,4 @@ Aprire in Android Studio con Android SDK 37 e JDK compatibile con il wrapper Gra
 Gli script in `tool/` supportano il collaudo locale e l'ispezione indipendente degli export. Usare emulatori dedicati: i test UI cancellano i dati del dispositivo di collaudo.
 
 Gli schemi Room V1 e V2 sono in `app/schemas`. La migrazione conserva le assegnazioni precedenti in “Senza reparto”.
+
