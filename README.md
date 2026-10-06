@@ -2,7 +2,7 @@
 
 App Android per gestire i turni di un ristorante, destinata all'uso personale. Sviluppatore: **LouisBigDev**.
 
-## Versione 1.2.1
+## Versione 1.2.2
 
 - Apertura sul giorno odierno, anche senza persone.
 - Nominativi in ordine alfabetico.
@@ -16,7 +16,7 @@ App Android per gestire i turni di un ristorante, destinata all'uso personale. S
 
 ## Installazione e aggiornamenti
 
-Gli APK sono negli [allegati dell'ultima release](https://github.com/01DIGITALS/ilTurno/releases/latest). Il repository è privato: accedere a GitHub con un account autorizzato.
+Gli APK sono negli [allegati dell'ultima release](https://github.com/01DIGITALS/ilTurno/releases/latest), scaricabili senza account. [Download diretto dell'ultimo APK](https://github.com/01DIGITALS/ilTurno/releases/latest/download/ilTurno.apk).
 
 Compatibilità minima: Android 8.0 / API 26. Target Android 16 / API 36.
 
